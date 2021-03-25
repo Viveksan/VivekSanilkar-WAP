@@ -1,0 +1,35 @@
+.mainheader{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Arial, Helvetica;
+    text-align: center;
+    size: 22pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.header{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Arial, Helvetica;
+    text-align: left;
+    size: 18pt;
+    text-decoration: underline;
+}
+
+body{
+    background-color: white;
+    color: #404040;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    size: 11px;
+}
+
+.usercomments{
+    background-color: #FFFFA8;
+    text-decoration: filled;
+    
+}
+
+.links{
+    color: #A4A400;
+}
