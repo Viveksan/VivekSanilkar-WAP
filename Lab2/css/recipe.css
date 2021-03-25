@@ -3,7 +3,7 @@
     background-color: #F0F0F0;
     font-family: 'Lucida Sans Unicode', Arial, Helvetica;
     text-align: center;
-    resize: 22pt;
+    font-size: 22pt;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -13,7 +13,7 @@
     background-color: #F0F0F0;
     font-family: 'Lucida Sans Unicode', Arial, Helvetica;
     text-align: left;
-    resize: 18pt;
+    font-size: 18pt;
     text-decoration: underline;
 }
 
@@ -21,7 +21,7 @@ body{
     background-color: white;
     color: #404040;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    resize: 11px;
+    font-size: 11px;
 }
 
 .usercomments{
