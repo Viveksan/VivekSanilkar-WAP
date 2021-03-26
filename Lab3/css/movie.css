@@ -1,0 +1,49 @@
+body{
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
+    font-size: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0pt;
+    padding: 0pt;
+}
+
+.banner{
+    background-image: url("../images/bannerbg.png");
+    background-repeat: repeat;
+}
+
+.bannerimage{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.movienametext{
+    
+    font-size: 24pt;
+    font-family: sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+.overallcontent{
+   
+    width: 800px;
+    border: 4px gray solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+   
+}
+
+.criticsReview{
+    width: 500px;
+
+}
+
+.criticsReviewTop{
+    background-image: url("../images/rbg.png");
+    background-repeat: repeat;
+    height: 83px;
+    font-size: 48pt;
+    color: red;
+}
