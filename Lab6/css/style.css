@@ -1,0 +1,29 @@
+
+#div1 {
+    border: 2px solid black;
+    padding: 20px;
+    width: 30vw;
+}
+
+#txt {
+    font-size: 14pt;
+}
+
+#headtxt {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+legend {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#txt {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#field1 {
+    border: 2px solid black;
+    padding: 20px;
+    width: 25vw;
+}
