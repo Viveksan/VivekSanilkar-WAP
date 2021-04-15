@@ -41,7 +41,7 @@
     </nav>
     <div id="divMainContainer" style="padding-top:1em;" class="container">
         <form id="contactform" name="contactform" method="post" action="ContactFormServlet">
-         <% %>
+         
          <c:if test="${isErrMsgsPresent}">
                     <div>
                         <p>
@@ -81,11 +81,11 @@
                 <div class="form-check form-check-inline">
                     <label class="form-check-label">
                         <input id="male" class="form-check-input" type="radio" name="gender"
-                            value="Male" > Male
+                            value="Male" <c:if test="${contactFormData.gender eq 'Male'}"> checked </c:if> /> Male
                     </label>
                     <label class="form-check-label"style="margin-left: 10px;">
                         <input id="female" class="form-check-input" type="radio" name="gender"
-                            value="Female"> Female
+                            value="Female" <c:if test="${contactFormData.gender eq 'Female'}"> checked </c:if>> Female
                     </label>
                 </div>
                     </div>
@@ -97,11 +97,11 @@
                     <div class="col-sm-12">
                         <!--Dropdown-->
                 <label for="category">*Category:</label>
-                <select id="category" value="${contactFormData.category}" class="form-control" name="category" >
+                <select id="category" class="form-control" name="category" >
                     <option value=null selected>Select...</option>
-                    <option value="Feedback">Feedback</option>
-                    <option value="Inquiry">Inquiry</option>      
-                    <option value="Complaint">Complaint</option>
+                    <option value="Feedback" <c:if test="${contactFormData.category eq 'Feedback'}"> selected </c:if>>Feedback</option>
+                    <option value="Inquiry" <c:if test="${contactFormData.category eq 'Inquiry'}" >selected </c:if>>Inquiry</option>      
+                    <option value="Complaint" <c:if test="${contactFormData.category eq 'Complaint'}">selected</c:if>>Complaint</option>
       
                 </select>
                     </div>

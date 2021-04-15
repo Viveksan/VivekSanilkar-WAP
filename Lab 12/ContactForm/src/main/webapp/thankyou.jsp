@@ -39,7 +39,7 @@
                     <br/>
                     <p class="card-text">Message: <c:out value="${contactFormData.message}"></c:out></p>
                     <br/><br/>
-                    <p>Please feel free to <a href="./contact-form" class="card-link">Contact Us</a> again</p>
+                    <p>Please feel free to <a href="contactform.jsp" class="card-link">Contact Us</a> again</p>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                              
                             </div>
